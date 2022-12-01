@@ -1,0 +1,16 @@
+.Footer::selection{
+    color: rgb(235, 116, 75);
+    background: transparent;
+}
+span.line {
+    display: inline-block;
+}
+a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(92, 92, 92);
+}

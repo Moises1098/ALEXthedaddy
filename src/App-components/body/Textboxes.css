@@ -1,0 +1,42 @@
+.Textboxes {
+    font-family: bookman-jf-pro, serif;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+   margin-top: 9%;
+   flex-wrap: wrap;
+   
+   
+  }
+  .Textboxes h1::selection, p::selection{
+    color:  rgb(235, 116, 75);
+    background: transparent;
+  }
+  .Textboxes h1:hover, p:hover{
+    font-style: oblique;  
+  }
+
+  .Textboxes li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .Textboxes p {
+    inline-size: 250px; 
+    overflow-wrap: break-word;
+  }
+
+  @media (max-width: 850px){
+    .Textboxes {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        text-align: center;
+
+        
+      }
+  }
